@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!-- Definir Style, Javascript, font, etc. -->
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script> <!-- Jquery -->
+    <script type="text/javascript" src="js/bootstrap.js"></script> <!-- Jquery -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Main CSS Style -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> <!-- Main CSS Style -->
+    
+</script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Flickering[Mis]information</title>
+</head>
+<body onload="first()">
+  <div onmousemove="move()" class="space">
+    <div>
+      <a href="fmi.html"><h4 class="linkheader">Flickering[Mis]information</h4></a>
+    </div>
+    <div class="centered" id="0">
+        <img src="img/fUcSxd5.jpg" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Between facts, opinions and reflections.</h1>
+          <h4 class="subtitule"><br>Trust nothing, question everything.</h4>
+        </div>
+    </div>
+    <div class="centered" id="1">
+        <img src="img/nosedive.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>At what point social media molds who we are?</h1>
+          <h4 class="subtitule"><br>Black Mirror S03E01 - Nosedive.</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="2">
+        <div class="bg">
+          <h1 class="quote">“We start from the observation that when users evaluate content contributed by a fellow user (e.g., by liking a post or voting on a comment) they also implicitly evaluate the author of that content, and that this can lead to complex social effects.”</h1>
+          <h4 class="subtitule"><br>Justin Cheng, How Community Feedback Shapes User Behavior” Stanford University, p. 9.<br><a href="https://cs.stanford.edu/people/jure/pubs/disqus-icwsm14.pdf">https://cs.stanford.edu/people/jure/pubs/disqus-icwsm14.pdf</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="3">
+        <div class="bg">
+          <h1 class="quote">“Whether or not the demonstrations in Brazil or Hong Kong or the uprisings of the Arab Spring would have happened without social media, such platforms clearly played an important role in shaping the kind of transition that followed.”</h1>
+          <h4 class="subtitule"><br>Collective Action Goes Digital, “Could people mobilize today without social media?”, Princeton University, p. 20.<br><a href="http://press.princeton.edu/chapters/s10582.pdf">http://press.princeton.edu/chapters/s10582.pdf</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="4">
+        <img src="img/louisedelage.jpg" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Social perception manipulation.</h1>
+          <h4 class="subtitule"><br>@louise.delage.<br>Fake instagram account calling upon social alcoholism.</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="5">
+        <div class="bg">
+          <h1 class="quote">“Media [...] determines, shape, molds the lens through which I view the world. [...] In general therms, media determines what can be said. Media determines who can say it, how it can be said, and mostly importantly, who can hear it.”</h1>
+          <h4 class="subtitule"><br>Tim Weninger, Changing the hive mind, TEDx Talks.<br><a href="https://www.youtube.com/watch?v=IVsz5xFd3qU&ab_channel=TEDxTalks">https://www.youtube.com/watch?v=IVsz5xFd3qU&ab_channel=TEDxTalks</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="6">
+        <img src="img/zuck.jpg" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>The next big thing in tech is...</h1>
+          <h4 class="subtitule"><br>Mark Zuckerberg no Mobile World Congress.</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="7">
+        <div class="bg">
+          <h1 class="quote">“55 percent of the people who visit a Web page stay for less than 15 seconds. Yet the site with the most traffic wins, regardless of how fleeting that traffic might be.”</h1>
+          <h4 class="subtitule"><br>Frank Rose, The Attention Economy, The Milken Institute Review, p. 45.<br><a href="http://www.frankrose.com/The_Attention_Economy.pdf">http://www.frankrose.com/The_Attention_Economy.pdf</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="8">
+        <div class="bg">
+          <h1 class="quote2">"In the tech world, there’s even a small industry built around Apple product rumors. Websites such as MacRumors, Cult of Mac, AppleInsider, the Boy Genius Report, and others compete to source and report rumblings about the next iPhone, iPad, or Apple Watch. These claims aren’t without effect. A 2014 study of merger rumors in the financial press found that “rumors in the press have large stock price effects.” Companies, like J.C. Penney, have seen their stock prices drop after rumors took hold on message boards, the trading floor, Twitter, and elsewhere."</h1>
+          <h4 class="subtitule"><br>Craig Silverman, “Literature Review: What We Know About the What, How, and Why of Rumors “ , Lies, Damn Lies, and Viral Content, Columbia Journalism School, p. 17 - 18.<br><a href="http://towcenter.org/wp-content/uploads/2015/02/LiesDamnLies_Silverman_TowCenter.pdf">http://towcenter.org/wp-content/uploads/2015/02/LiesDamnLies_Silverman_TowCenter.pdf</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="9">
+        <img src="img/connecting.jpg" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Technology appeals to us most where we are most vulnerable.</h1>
+          <h4 class="subtitule"><br>Facebook: Connecting the world takes every one of us.<br><a href="https://www.youtube.com/watch?v=kfuvk6C97rg&ab_channel=Facebook">https://www.youtube.com/watch?v=kfuvk6C97rg&ab_channel=Facebook</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="10">
+        <div class="bg">
+          <h1 class="quote">“We expect more from technology and less from each other. Technology appeals to us most where we are most vulnerable. We are lonely but we are afraid of intimacy. The illusion of companionship without the demands of friendship.”</h1>
+          <h4 class="subtitule"><br>Sherry Turkle, Connected, but alone?, TEDx Talks.<br><a href="https://www.ted.com/talks/sherry_turkle_alone_together#t-793310">https://www.ted.com/talks/sherry_turkle_alone_together#t-793310</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="11">
+        <div class="bg">
+          <h1 class="quote">There is an enormous necessity to control everything. Constant digital connection - that does not imply human connection - creates a constant need of not being alone, resulting in anxiety and depression.</h1>
+          <h4 class="subtitule"><br>+ Digital conections - Human relations</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="12">
+        <img src="img/listeningpost.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Social media and the Ego.</h1>
+          <h4 class="subtitule"><br>Mark Hansen and Ben Rubin: Listening Post, Real-Time Data Responsive Environment 2001.</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="13">
+        <div class="bg">
+          <h1 class="quote2">Ironically, even if the fathers of social media defend that they were created with the intention to connect people, they mostly tend to focus on the self, the Ego. A lot of what is supposed to be "it self", easily becomes an exposition of how much "I" am something, wheter that be caring, loving, intelectual, or worried about something especific.</h1>
+        </div>
+    </div>
+    <div class="centered bg" id="14">
+        <img src="img/socialroulette.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>New media, new values.</h1>
+          <h4 class="subtitule"><br>Social Roulette has 1 in 6 chances in deleting your facebook account. “A game of chance where your identity is the grand prize”.<br><a href="http://www.socialroulette.net/">http://www.socialroulette.net/</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="15">
+        <div class="bg">
+          <h1 class="quote">Social media started to have such an importance that the thought of losing an account might be somewhat terrorizing. So much of our lives depend on them that they become an extension of our being, obtaining equal values, if not bigger, than our limbs or senses. At what point we could bet their existence?</h1>
+        </div>
+    </div>
+    <div class="centered bg" id="16">
+        <img src="img/twittermatrix.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Quantity x Quality communication</h1>
+          <h4 class="subtitule"><br>Twiter Matrix is a website that visualizes tweets matrix-like. The scene becomes completly ironic when you start seeing emojis.<br><a href="https://konard.github.io/twittermatrix/messages.html">https://konard.github.io/twittermatrix/messages.html</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="17">
+        <div class="bg">
+          <h1 class="quote">Of all posts, tweets and other online publication, how many of those carry a meaningful message? How many of them are repeated in different ways, or are just meaningless? Even if there is quality content, they might end up diffused by the previous, and end up in a puddle of emojis, rambling texts, and useless information.</h1>
+        </div>
+    </div>
+    <div class="centered bg" id="18">
+        <img src="img/emojiwall.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Information bombardment</h1>
+          <h4 class="subtitule"><br>Emoji Wall is literally the embodiment of being bombarded with emojis.<br><a href="http://kitasenjudesign.com/work/72/">http://kitasenjudesign.com/work/72/</a></h4>
+        </div>
+    </div>
+    <div class="centered bg" id="19">
+        <div class="bg">
+          <h1 class="quote2">How much has our brain changed since we started being constantly attacked by a faster flow of information? How much of our memory is occupied with advertisement of things that we do not want to buy, of emails that we do not want to read and with videos that we wish we didn't saw? How far our reality has been altered by what we created?</h1>
+        </div>
+    </div>
+    <div class="centered bg" id="20">
+        <img src="img/trumptweets.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>The relevance of a tweet is determined by who published it.</h1>
+          <h4 class="subtitule"><br>Even more when you are the leader of one of the most powerful countries.</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="21">
+        <img src="img/westboro.jpg" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Safe-spaces for hete speech.</h1>
+          <h4 class="subtitule"><br>A infamous - and almost comic, if not tragic - church, owner of the phrase "God hates [something that I am not(probably)]!"</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="22">
+        <img src="img/grafi.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>The racist post-trump world.</h1>
+          <h4 class="subtitule"><br>The imediate surreal reaction after Donald Trump won the 2016 U.S.A. elections.</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="23">
+        <img src="img/imi.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Who is ok, who is not ok.</h1>
+          <h4 class="subtitule"><br>The european imigration crisis puts to question who is welcome.</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="24">
+        <img src="img/isis.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Media is the primary weapon to bring terror.</h1>
+          <h4 class="subtitule"><br>But also, weirdly, a huge source of "entertainment".</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="25">
+        <img src="img/facepalm.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Bigotry is not opinion.</h1>
+          <h4 class="subtitule"><br>And racist ideals are not facts.</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="26">
+        <img src="img/next.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Who will be next?</h1>
+          <h4 class="subtitule"><br>The (never gone) return of political mediactic acts of violence.</h4>
+        </div>
+    </div>
+    <div class="centered bg" id="27">
+        <img src="img/bigoted.gif" class="img-responsive img">
+        <div class="gradientbg">
+          <h1 class="title"><br>Free bigoted rage for everyone!</h1>
+          <h4 class="subtitule"><br>The surreal consummation of hate.</h4>
+        </div>
+    </div>
+  <script type="text/javascript" src="js/main.js"></script>
+</div>
+</body>
+</html>
