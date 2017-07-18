@@ -239,7 +239,6 @@ p {
 	font-weight: 400;
 	letter-spacing: 0.2px;
 	font-size: 1em;
-
 }
 
 .blocktext {
@@ -299,4 +298,85 @@ p {
 .spacer {
 	margin-top: 10px;
 	margin-bottom: 20px;
+}
+
+@media(max-width: 600px){
+.img {
+	max-height: 90vh;
+}
+.linkheader {
+	font-size: 30px;
+}
+.title2 {
+	text-align: center;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-size: 6em;
+	display: inline;
+	word-break: break-all;
+}
+
+.title3 {
+	text-align: center;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	font-size: 4em;
+	display: inline;
+}
+
+.title3 {
+	text-align: center;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	font-size: 4em;
+	display: inline;
+	color: ;
+}
+
+.quote3 {
+	text-align: center;
+	color: #000;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 900;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-size: 4em;
+}
+
+.subtitule2 {
+	text-align: center;
+	color: #000;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 2em;
+}
+
+.subtitule3 {
+	text-align: center;
+	color: #000;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 600;
+	letter-spacing: 8px;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: center;
+	color: #000;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	font-size: 2em;
+}
 }
